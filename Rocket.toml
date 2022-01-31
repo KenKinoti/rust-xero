@@ -1,7 +1,13 @@
 [global.oauth.custom]
 provider = { auth_uri = "https://login.xero.com/identity/connect/authorize", token_uri = "https://identity.xero.com/connect/token" }
-client_id = "41A7364832B14269AF586E5FD165EF5B"
+# client_id = "41A7364832B14269AF586E5FD165EF5B"
+
+# June Demo
+client_id = "504F788B08EB48B390B8FC6E864D0EA5"
 redirect_uri = "http://localhost:8000/auth/xero"
 response_type = "code"
 state = "code"
-client_secret = "LwR16scUg7ffyABZvrWOcnkdQN39sxTGW_jlu6QCMcBjBovF"
+# client_secret = "LwR16scUg7ffyABZvrWOcnkdQN39sxTGW_jlu6QCMcBjBovF"
+
+# June Demo
+client_secret = "koOsiLeITkdUqnfetx3w-wv4xwes3NixtDHU9YG6xcNz03Dn"
