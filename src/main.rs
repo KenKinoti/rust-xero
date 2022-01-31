@@ -70,7 +70,7 @@ fn xero_active(mut cookies: Cookies) -> String {
     // let header = Header::new("Authorization",token);
     // assert_eq!(header.to_string(), "Authorization: custom value");
 
-    format!("Welcome to the xero_active api ---- = {:?} -----", token)
+    format!("Welcome to the xero_active api : --------- :{:?} ", token)
 
 }
 
@@ -105,5 +105,9 @@ fn main() {
         // oauth connection
         // active connections endpoint
         // disconnect connections
+
+        // trainning code
+        // 650ao45
+        
         .launch();
 }
