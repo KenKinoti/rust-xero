@@ -1,0 +1,17 @@
+[package]
+name = "rust_xero"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kennedy Kinoti"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.10"
+rocket_oauth2 = "0.4.1"
+urlencoding = "2.1.0"
+
+[dependencies.rocket_contrib]
+version = "0.4.10"
+default-features = false
+features = ["json"]
