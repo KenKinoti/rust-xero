@@ -1,4 +1,4 @@
-# RUST-CRUD
+# RUST-XERO
 RUST based CRUD API to connect to XERO
 
 ## Quick start
